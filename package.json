@@ -1,0 +1,34 @@
+{
+  "name": "marcelle-umap",
+  "description": "A Marcelle Application",
+  "version": "0.0.0",
+  "keywords": [
+    "marcelle"
+  ],
+  "main": "public/bundle.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@marcellejs/core": "^0.6.1",
+    "chart.js": "^4.4.3",
+    "scatter-gl": "^0.0.13",
+    "umap-js": "^1.3.3"
+  },
+  "devDependencies": {
+    "@marcellejs/design-system": "^0.6.1",
+    "@marcellejs/devtools": "^0.6.1",
+    "@sveltejs/vite-plugin-svelte": "^2.0.3",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.1.0",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "prettier": "^2.7.1",
+    "svelte": "^3.55.1",
+    "svelte-preprocess": "^5.0.1",
+    "vite": "^4.1.4"
+  }
+}
